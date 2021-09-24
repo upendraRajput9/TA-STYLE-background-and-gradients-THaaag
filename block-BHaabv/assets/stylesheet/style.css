@@ -78,10 +78,12 @@ font-family: 'Noto Sans', sans-serif;
 } 
 header{
 	background-color: rgb(33,34,47);
-	padding-bottom: 180px;
+	padding-bottom: 170px;
+	position: absolute;
+	width: 100%;
 }
 .media-heading{
-	padding-top: 30px;
+	padding-top: 20px;
 }
 h1{
 	color: white;
@@ -110,14 +112,15 @@ h1{
 	
 }
 /* section-1 */
-
+.sec-dashboard{
+	position: relative;
+	top: 170px;
+}
 .dashboard{
 	width: 250px;
 	height: 220px;
 	background: rgb(37,43,67);
  border-radius: 4%;
- position: relative;
- top: -120px;
  line-height: 200px;
 }
 
@@ -130,7 +133,7 @@ h1{
 
 }
 .instagram{
-	background: linear-gradient(to right, rgb(246, 201, 116), rgb(246, 84, 84));
+	background: linear-gradient(to right, rgb(246, 201, 116), rgb(246, 84, 84));  
 }
 .you-tube{
 	background: red;
@@ -180,14 +183,16 @@ a{
 	color: red;
 }
 /* section-2 */
+.sec-overview{
+	margin-top: 200px;
+}
 h3{
 	color: white;
 	font-size: 30px;
-	position: relative;
-	top: -70px;
+	
 }
 .overview{
-	margin-bottom: 20px;
+	margin: 30px 0;
 }
 .overview-board{
 	width: 250px;
